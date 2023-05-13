@@ -9,7 +9,7 @@ Fonts are separated by a & */
   --primary-color: #98473e   ;
   --secondary-color: #a99985 ;
   --accent1-color: #dad2bc;
-  --accent2-color: white;
+  --accent2-color: #DCDCDD;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Permanent Marker";
