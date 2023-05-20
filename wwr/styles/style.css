@@ -1,3 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Permanent+Marker&display=swap');
+
+.home-title, .msg h2{
+    font-family: "Permanent Marker", "Brush Script MT";
+    font-size: 2em;
+}
+
+body{
+    font-family: Tahoma, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    margin: 0;
+}
+.book, .join{
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+.home-title{
+    margin-top: 10px;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+
+.msg{
+    line-height: 1.5em;
+    padding: 35px;
+}
+
+.msg p{
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -48,4 +88,35 @@ footer p{
 
 footer p a:hover{
     text-decoration: underline;
+}
+
+footer{
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+footer .social img{
+    padding-top: 15px;
+}
+
+#logo_link{
+    padding-top: 5px;
+}
+nav a{
+    padding: 35px;
+}
+.book, .join{
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+.card-img{
+    border: 10px solid #a99985;
+}
+.icon{
+    padding-top: 10px;
+}
+
+main section img{
+    box-sizing: border-box;
 }
