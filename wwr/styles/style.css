@@ -137,6 +137,7 @@ header{
     display: grid;
     grid-template-columns: 150px auto;
 }
+
 header nav a{
     color: white;
 }
