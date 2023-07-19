@@ -167,3 +167,38 @@ footer .social img{
   width: 500px;
   padding: 20px;
 }
+
+@media screen and (max-width: 1000px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 5px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    .home-welcome, .home-title {
+        width: 85%;
+        display: block;
+        margin: 0;
+    }
+
+    .home-title {
+        font-size: 25px;
+        color: #000000;
+    }
+    #img-apps, #img-rpa, .mySlides{ 
+        margin: 50px auto;
+        width: 60%;
+    }
+
+    footer {
+        margin-top: 25px;
+    }
+}
